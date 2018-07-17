@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271CE02C20FE1A7400F0C6C2 /* output2.json in Resources */ = {isa = PBXBuildFile; fileRef = 271CE02B20FE1A7400F0C6C2 /* output2.json */; };
+		27E78FC420FE17C800AB283B /* output1.json in Resources */ = {isa = PBXBuildFile; fileRef = 27E78FC320FE17C800AB283B /* output1.json */; };
+		27E8CC2820FE07DB0080067F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8CC2720FE07DB0080067F /* AppDelegate.swift */; };
+		27E8CC2A20FE07DB0080067F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8CC2920FE07DB0080067F /* ViewController.swift */; };
+		27E8CC2C20FE07DC0080067F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E8CC2B20FE07DC0080067F /* Assets.xcassets */; };
+		27E8CC2F20FE07DC0080067F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E8CC2D20FE07DC0080067F /* Main.storyboard */; };
+		55D1CD8663906C8E56951A74 /* Pods_TelegraphSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AA283E43C3C7935F1CF5B7 /* Pods_TelegraphSocket.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02AA283E43C3C7935F1CF5B7 /* Pods_TelegraphSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelegraphSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271CE02B20FE1A7400F0C6C2 /* output2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = output2.json; sourceTree = "<group>"; };
+		27E78FC320FE17C800AB283B /* output1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = output1.json; sourceTree = "<group>"; };
+		27E8CC2420FE07DB0080067F /* TelegraphSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelegraphSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E8CC2720FE07DB0080067F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27E8CC2920FE07DB0080067F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27E8CC2B20FE07DC0080067F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E8CC2E20FE07DC0080067F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27E8CC3020FE07DC0080067F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E8CC3120FE07DC0080067F /* TelegraphSocket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TelegraphSocket.entitlements; sourceTree = "<group>"; };
+		4660DCFC830823BC00E280C8 /* Pods-TelegraphSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelegraphSocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TelegraphSocket/Pods-TelegraphSocket.debug.xcconfig"; sourceTree = "<group>"; };
+		6A796B4C7AB2555DC4141D4F /* Pods-TelegraphSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelegraphSocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-TelegraphSocket/Pods-TelegraphSocket.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E8CC2120FE07DB0080067F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D1CD8663906C8E56951A74 /* Pods_TelegraphSocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E8CC1B20FE07DB0080067F = {
+			isa = PBXGroup;
+			children = (
+				27E8CC2620FE07DB0080067F /* TelegraphSocket */,
+				27E8CC2520FE07DB0080067F /* Products */,
+				B07AEA107D89337E8C7A01A7 /* Pods */,
+				3F04514733B89E097504FC22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27E8CC2520FE07DB0080067F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E8CC2420FE07DB0080067F /* TelegraphSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E8CC2620FE07DB0080067F /* TelegraphSocket */ = {
+			isa = PBXGroup;
+			children = (
+				27E8CC2720FE07DB0080067F /* AppDelegate.swift */,
+				27E8CC2920FE07DB0080067F /* ViewController.swift */,
+				27E8CC2B20FE07DC0080067F /* Assets.xcassets */,
+				27E8CC2D20FE07DC0080067F /* Main.storyboard */,
+				27E78FC320FE17C800AB283B /* output1.json */,
+				271CE02B20FE1A7400F0C6C2 /* output2.json */,
+				27E8CC3020FE07DC0080067F /* Info.plist */,
+				27E8CC3120FE07DC0080067F /* TelegraphSocket.entitlements */,
+			);
+			path = TelegraphSocket;
+			sourceTree = "<group>";
+		};
+		3F04514733B89E097504FC22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02AA283E43C3C7935F1CF5B7 /* Pods_TelegraphSocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B07AEA107D89337E8C7A01A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4660DCFC830823BC00E280C8 /* Pods-TelegraphSocket.debug.xcconfig */,
+				6A796B4C7AB2555DC4141D4F /* Pods-TelegraphSocket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E8CC2320FE07DB0080067F /* TelegraphSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E8CC3420FE07DC0080067F /* Build configuration list for PBXNativeTarget "TelegraphSocket" */;
+			buildPhases = (
+				D4AAEC2CB13D11C1C749107F /* [CP] Check Pods Manifest.lock */,
+				27E8CC2020FE07DB0080067F /* Sources */,
+				27E8CC2120FE07DB0080067F /* Frameworks */,
+				27E8CC2220FE07DB0080067F /* Resources */,
+				7A10F59E1B593DCB75EBEB8F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelegraphSocket;
+			productName = TelegraphSocket;
+			productReference = 27E8CC2420FE07DB0080067F /* TelegraphSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E8CC1C20FE07DB0080067F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = FDT;
+				TargetAttributes = {
+					27E8CC2320FE07DB0080067F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 27E8CC1F20FE07DB0080067F /* Build configuration list for PBXProject "TelegraphSocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E8CC1B20FE07DB0080067F;
+			productRefGroup = 27E8CC2520FE07DB0080067F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E8CC2320FE07DB0080067F /* TelegraphSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E8CC2220FE07DB0080067F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E78FC420FE17C800AB283B /* output1.json in Resources */,
+				27E8CC2C20FE07DC0080067F /* Assets.xcassets in Resources */,
+				27E8CC2F20FE07DC0080067F /* Main.storyboard in Resources */,
+				271CE02C20FE1A7400F0C6C2 /* output2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A10F59E1B593DCB75EBEB8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TelegraphSocket/Pods-TelegraphSocket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/HTTPParserC/HTTPParserC.framework",
+				"${BUILT_PRODUCTS_DIR}/Telegraph/Telegraph.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTTPParserC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Telegraph.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TelegraphSocket/Pods-TelegraphSocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4AAEC2CB13D11C1C749107F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TelegraphSocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E8CC2020FE07DB0080067F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E8CC2A20FE07DB0080067F /* ViewController.swift in Sources */,
+				27E8CC2820FE07DB0080067F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27E8CC2D20FE07DC0080067F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E8CC2E20FE07DC0080067F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27E8CC3220FE07DC0080067F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E8CC3320FE07DC0080067F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		27E8CC3520FE07DC0080067F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4660DCFC830823BC00E280C8 /* Pods-TelegraphSocket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TelegraphSocket/TelegraphSocket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M8663S48MK;
+				INFOPLIST_FILE = TelegraphSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdt.TelegraphSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		27E8CC3620FE07DC0080067F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A796B4C7AB2555DC4141D4F /* Pods-TelegraphSocket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TelegraphSocket/TelegraphSocket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M8663S48MK;
+				INFOPLIST_FILE = TelegraphSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdt.TelegraphSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E8CC1F20FE07DB0080067F /* Build configuration list for PBXProject "TelegraphSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E8CC3220FE07DC0080067F /* Debug */,
+				27E8CC3320FE07DC0080067F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E8CC3420FE07DC0080067F /* Build configuration list for PBXNativeTarget "TelegraphSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E8CC3520FE07DC0080067F /* Debug */,
+				27E8CC3620FE07DC0080067F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E8CC1C20FE07DB0080067F /* Project object */;
+}

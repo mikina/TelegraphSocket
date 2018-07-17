@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+platform :osx, 10.11
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'TelegraphSocket' do
+  use_frameworks!
+
+  pod 'Telegraph'
+end
